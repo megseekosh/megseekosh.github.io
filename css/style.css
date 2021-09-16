@@ -1,9 +1,9 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
   line-height: 1.8;
-  color: #b3b3b3;
+  color: #1F1311;
   background: #fff;
 }
 
@@ -20,7 +20,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Playfair Display", times, serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .btn, .form-control {
@@ -101,7 +101,7 @@ header {
 header .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .2em;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 header .navbar-brand.absolute {
@@ -152,7 +152,7 @@ header .navbar .nav-link.active {
 }
 
 header .navbar .dropdown-menu {
-  font-size: 14px;
+  font-size: 19px;
   border-radius: 0px;
   border: none;
   -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
@@ -235,7 +235,7 @@ body.offcanvas-open .site-wrap {
 .offcanvas-toggle {
   position: fixed;
   z-index: 89;
-  right: 20px;
+  left: 20px;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: 20px;
@@ -262,7 +262,7 @@ body.offcanvas-open .site-wrap {
   top: 0;
   right: 0;
   height: 100vh;
-  margin-right: -240px;
+  margin-left: -240px;
   overflow: scroll;
   z-index: 100;
   width: 240px;
@@ -309,16 +309,26 @@ body.offcanvas-open .site-wrap {
 }
 
 .offcanvas_menu ul.social li:first-child a {
-  padding-left: 0;
+  padding-left: 400;
 }
 
-main, aside {
-  width: 100%;
+main {
+  width: 60%;
 }
 
-@media (min-width: 576px) {
-  main, aside {
-    width: 50%;
+aside {
+  width: 40%;
+}
+
+@media (min-width: 200px) {
+  main {
+    width: 60%;
+  }
+}
+
+@media (min-width: 200px) {
+  aside {
+    width: 40%;
   }
 }
 
