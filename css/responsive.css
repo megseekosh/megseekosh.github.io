@@ -80,11 +80,13 @@ h3 {
 }
 
 body {
-    background-image: url('../img/s-esh_spectrogram.jpg');
+    background-/*image: url('../img/s-esh_spectrogram.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background: none; /* Removes any background, including images or colors */
+
 }
 
 @media only screen and (max-width: 768px) {
