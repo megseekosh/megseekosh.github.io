@@ -1461,3 +1461,25 @@ main {
     stroke-dashoffset: -136px;
   }
 }
+
+
+body {
+  max-width: 1200px; /* Restrict the body width */
+  margin: 0 auto;    /* Center the body horizontally */
+  padding: 0 15px;   /* Add padding for a nicer layout */
+}
+
+/* Optional: Restrict the width of the .container as well */
+.container {
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto;    /* Center it horizontally */
+  padding: 0 15px;   /* Add padding */
+}
+
+/* Ensure proper behavior on smaller screens */
+@media (max-width: 768px) {
+  body, .container {
+    max-width: 100%;
+    padding: 0 10px; /* Smaller padding for mobile devices */
+  }
+}
